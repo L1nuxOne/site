@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L1nux.one – The Semantic OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --fg: #f0f0f2;
+      --accent: #59d699;
+      font-family: "Inter", sans-serif;
+    }
+    html,body{
+      margin:0; padding:0; background:var(--bg); color:var(--fg); height:100%;}
+    .center{
+      display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; text-align:center; gap:2rem;
+      padding:0 1rem;
+    }
+    h1{font-size:clamp(2.5rem,8vw,5rem); font-weight:800; margin:0; letter-spacing:-0.04em;}
+    p.tag{font-size:clamp(1rem,3vw,1.5rem); font-weight:600; max-width:32ch; margin:0 auto; opacity:.85;}
+    button{
+      background:var(--accent); border:none; padding:1rem 2.5rem; font-size:1.1rem; font-weight:600; border-radius:9999px; cursor:pointer; transition:transform .15s ease;
+    }
+    button:hover{transform:translateY(-2px);}button:active{transform:translateY(1px);}
+    footer{position:fixed; bottom:1rem; width:100%; text-align:center; font-size:.8rem; opacity:.5;}
+  </style>
+</head>
+<body>
+  <main class="center">
+    <h1>L1nux.one</h1>
+    <p class="tag">Linux, fulfilled – the <strong>Semantic OS</strong> you install with a single click.</p>
+    <button onclick="location.href='https://github.com/L1nux-Project'">I&nbsp;WANT&nbsp;IT</button>
+  </main>
+  <footer>
+    © 2025 L1nux Project • Open source • Built for infinite recursion
+  </footer>
+</body>
+</html>
