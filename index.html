@@ -26,6 +26,9 @@
       background:var(--accent); border:none; padding:1rem 2.5rem; font-size:1.1rem; font-weight:600; border-radius:9999px; cursor:pointer; transition:transform .15s ease;
     }
     button:hover{transform:translateY(-2px);}button:active{transform:translateY(1px);}
+    .folderwing-link{display:inline-flex;align-items:center;gap:.6rem;color:var(--fg);text-decoration:none;border:1px solid #38424f;border-radius:12px;padding:.8rem 1.2rem;font-size:.95rem;}
+    .folderwing-link:hover{border-color:var(--accent);}
+    .folderwing-link img{width:32px;height:32px;}
     footer{position:fixed; bottom:1rem; width:100%; text-align:center; font-size:.8rem; opacity:.5;}
   </style>
 </head>
@@ -34,6 +37,7 @@
     <h1>L1nux.one</h1>
     <p class="tag">Linux, fulfilled – the <strong>Semantic OS</strong> you install with a single click.</p>
     <button onclick="location.href='https://github.com/L1nux-Project'">I&nbsp;WANT&nbsp;IT</button>
+    <a class="folderwing-link" href="/folderwing/"><img src="/folderwing/assets/folderwing.svg" alt="">Meet Folderwing — file manager for Windows &amp; WSL <span aria-hidden="true">↗</span></a>
   </main>
   <footer>
     © 2025 L1nux Project • Open source • Built for infinite recursion
